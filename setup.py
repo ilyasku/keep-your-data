@@ -11,4 +11,11 @@ setuptools.setup(
     description="Keep track of anything, on your own sever.",
     long_description=long_description,
     long_description_content_type="text/rst",
-    url=""
+    url="https://github.com/ilyasku/keep-your-data",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU GPLv3"
+    ],
+    python_requires=">=3.7"
+)
